@@ -12,6 +12,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 public class Costumer {
 
+    // TODO: REMOVE NOTATIONS AND DEPENDENCIES FROM DOMAIN
     @Id
     @GeneratedValue
     private Long id;

@@ -2,10 +2,11 @@ package org.acme.domain.services;
 
 import org.acme.domain.entities.Costumer;
 import org.acme.domain.ports.CostumerRepositoryPort;
+import org.acme.domain.ports.CostumerRestPort;
 
 import java.util.List;
 
-public class CostumerDomainService {
+public class CostumerDomainService implements CostumerRestPort {
 
     private final CostumerSaveService costumerSaveService;
     private final CostumerFetchAllService costumerFetchAllService;
